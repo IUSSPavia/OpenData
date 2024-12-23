@@ -612,7 +612,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
   <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
   <rdf:type rdf:resource="vcard:Kind"/>
-  <vcard:fn>IUSS di Pavia<vcard:fn/>
+  <vcard:fn>IUSS di Pavia</vcard:fn>
   <vcard:hasEmail rdf:resource="diram@pec-iusspavia.it"/>
   <vcard:hasTelephone/>
   <vcard:hasURL rdf:resource="https://www.iusspavia.it"/>
