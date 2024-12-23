@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+<dcatapit:Catalog rdf:about="https://github.com/IUSSPavia/OpenData">
+  <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  <dct:title>IUSS di Pavia</dct:title>
+  <dct:publisher>
+    <dcatapit:Agent rdf:about="iuss_pv">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <dct:identifier>iuss_pv</dct:identifier>
+      <foaf:name>IUSS di Pavia</foaf:name>
+    </dcatapit:Agent>
+  </dct:publisher>
+  <dct:description>Catalogo Dati Istituto Universitario di Studi Superiori di Pavia</dct:description>
+  <dct:language>it</dct:language>
+  <foaf:homepage rdf:resource="https://github.com/IUSSPavia/OpenData#"/>
+  <dcat:themeTaxonomy>
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+      <dct:title>Data Theme Vocabulary</dct:title>
+    </skos:ConceptScheme>
+  </dcat:themeTaxonomy>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-10</dct:modified>
+  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-10</dct:issued>
+  <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  <dcat:dataset rdf:resource="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-biomediche-"/>
+  <dcat:dataset rdf:resource="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-e-tecnologie"/>
+  <dcat:dataset rdf:resource="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-sociali"/>
+  <dcat:dataset rdf:resource="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-umane"/>
+  <dcat:dataset rdf:resource="https://github.com/IUSSPavia/OpenData/sedi"/>
+  <dcat:dataset rdf:resource="https://github.com/IUSSPavia/OpenData/laboratori"/>
+  <dcat:dataset rdf:resource="https://github.com/IUSSPavia/OpenData/centri-ricerca"/>
+  <dcat:dataset rdf:resource="https://github.com/IUSSPavia/OpenData/aule-broletto"/>
+  <dcat:dataset rdf:resource="https://github.com/IUSSPavia/OpenData/aule-marelli"/>
+  <dcat:dataset rdf:resource="https://github.com/IUSSPavia/OpenData/aule-eucentre"/>
+  </dcatapit:Catalog>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-biomediche-">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>Corsi Ordinari Scienze Biomediche</dct:title>
+    <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/formazione/cosa-sono-i-corsi-ordinari/"/>
+    <dct:description>Elenca i corsi ordinari Scienze Biomediche 24-25</dct:description>
+    <dct:identifier>iuss_pv_corsi-ordinari-scienze-biomediche-</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="iuss_pv">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dcat:distribution rdf:resource="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-biomediche-/csv2"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-e-tecnologie">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>Corsi Ordinari Scienze e Tecnologie</dct:title>
+    <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/formazione/cosa-sono-i-corsi-ordinari/"/>
+    <dct:description>Elenca i corsi ordinari Scienze e Tecnologie 24-25</dct:description>
+    <dct:identifier>iuss_pv_corsi-ordinari-scienze-e-tecnologie</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="iuss_pv">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dcat:distribution rdf:resource="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-e-tecnologie/csv3"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-sociali">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>Corsi Ordinari Scienze Sociali</dct:title>
+    <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/formazione/cosa-sono-i-corsi-ordinari/"/>
+    <dct:description>Elenca i corsi ordinari Scienze Sociali 24-25</dct:description>
+    <dct:identifier>iuss_pv_corsi-ordinari-scienze-sociali</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="iuss_pv">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dcat:distribution rdf:resource="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-sociali/csv4"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-umane">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>Corsi Ordinari Scienze Umane</dct:title>
+    <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/formazione/cosa-sono-i-corsi-ordinari/"/>
+    <dct:description>Elenca i corsi ordinari Scienze Umane 24 - 25</dct:description>
+    <dct:identifier>iuss_pv_corsi-ordinari-scienze-umane</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="iuss_pv">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dcat:distribution rdf:resource="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-umane/csv5"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/IUSSPavia/OpenData/sedi">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>Sedi</dct:title>
+    <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/chi-siamo/sedi/"/>
+    <dct:description>Elenca le Sedi IUSS di Pavia</dct:description>
+    <dct:identifier>iuss_pv_sedi</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="iuss_pv">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dcat:distribution rdf:resource="https://github.com/IUSSPavia/OpenData/sedi/csv6"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/IUSSPavia/OpenData/laboratori">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>Laboratori</dct:title>
+    <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/ricerca/laboratori-e-centri-di-ricerca/"/>
+    <dct:description>Elenca i Laboratori IUSS di Pavia</dct:description>
+    <dct:identifier>iuss_pv_laboratori</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="iuss_pv">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dcat:distribution rdf:resource="https://github.com/IUSSPavia/OpenData/laboratori/csv7"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/IUSSPavia/OpenData/centri-ricerca">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>Centri Ricerca</dct:title>
+    <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/ricerca/laboratori-e-centri-di-ricerca/"/>
+    <dct:description>Elenca i Centri di Ricerca IUSS di Pavia</dct:description>
+    <dct:identifier>iuss_pv_centri-ricerca</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="iuss_pv">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dcat:distribution rdf:resource="https://github.com/IUSSPavia/OpenData/centri-ricerca/csv8"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/IUSSPavia/OpenData/aule-broletto">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>Aule Broletto</dct:title>
+    <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/chi-siamo/sedi/"/>
+    <dct:description>Elenca le aule del Broletto</dct:description>
+    <dct:identifier>iuss_pv_aule-broletto</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="iuss_pv">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dcat:distribution rdf:resource="https://github.com/IUSSPavia/OpenData/aule-broletto/csv9"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/IUSSPavia/OpenData/aule-marelli">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>Aule Marelli</dct:title>
+    <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/chi-siamo/sedi/"/>
+    <dct:description>Elenca le aule Marelli</dct:description>
+    <dct:identifier>iuss_pv_aule-marelli</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="iuss_pv">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dcat:distribution rdf:resource="https://github.com/IUSSPavia/OpenData/aule-marelli/csv10"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/IUSSPavia/OpenData/aule-eucentre">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>Aule Eucentre</dct:title>
+    <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/chi-siamo/sedi/"/>
+    <dct:description>Elenca le aule Eucetre</dct:description>
+    <dct:identifier>iuss_pv_aule-eucentre</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="iuss_pv">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>iuss_pv</dct:identifier>
+        <foaf:name>Istituto Universitario di Studi Superiori di Pavia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
+    <dcat:distribution rdf:resource="https://github.com/IUSSPavia/OpenData/aule-eucentre/csv11"/>
+  </dcatapit:Dataset>
+  <dcatapit:Distribution rdf:about="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-biomediche-/csv2">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/IUSSPavia/OpenData/refs/heads/main/SCIENZE-BIOMEDICHE-2024-25.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Corsi Ordinari Scienze Biomediche 24-25 CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-e-tecnologie/csv3">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/IUSSPavia/OpenData/refs/heads/main/SCIENZE-E-TECNOLOGIE-2024-25.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Corsi Ordinari Scienze e Tecnologie 24-25 CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-sociali/csv4">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/IUSSPavia/OpenData/refs/heads/main/SCIENZE-SOCIALI-2024-25.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Corsi Ordinari Scienze Sociali 24-25 CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/IUSSPavia/OpenData/corsi-ordinari-scienze-umane/csv5">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/IUSSPavia/OpenData/refs/heads/main/SCIENZE-UMANE-2024-25.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Corsi Ordinari Scienze Umane 24-25 CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/IUSSPavia/OpenData/sedi/csv6">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/IUSSPavia/OpenData/refs/heads/main/Sedi.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Sedi IUSS CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/IUSSPavia/OpenData/laboratori/csv7">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/IUSSPavia/OpenData/refs/heads/main/Laboratori.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Laboratori IUSS CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/IUSSPavia/OpenData/centri-ricerca/csv8">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/IUSSPavia/OpenData/refs/heads/main/CentriRicerca.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Centri Ricerca IUSS CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/IUSSPavia/OpenData/aule-broletto/csv9">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/IUSSPavia/OpenData/refs/heads/main/AuleBroletto.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Aule Broletto CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/IUSSPavia/OpenData/aule-marelli/csv10">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/IUSSPavia/OpenData/refs/heads/main/AuleMarelli.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Aule Marelli CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/IUSSPavia/OpenData/aule-eucentre/csv11">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/IUSSPavia/OpenData/refs/heads/main/AuleEucentre.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Aule Eucentre CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+<dcatapit:Organization rdf:about="https://www.iusspavia.it">
+  <rdf:type rdf:resource="vcard:Organization"/>
+  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdf:type rdf:resource="vcard:Kind"/>
+  <vcard:fn>IUSS di Pavia</vcard:fn>
+  <vcard:hasEmail rdf:resource="diram@pec-iusspavia.it"/>
+  <vcard:hasTelephone/>
+  <vcard:hasURL rdf:resource="https://www.iusspavia.it"/>
+</dcatapit:Organization>
+</rdf:RDF>
