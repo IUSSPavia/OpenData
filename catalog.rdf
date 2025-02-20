@@ -48,7 +48,7 @@
     <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/formazione/cosa-sono-i-corsi-ordinari/"/>
     <dct:description>Elenca i corsi ordinari Scienze Biomediche 24-25</dct:description>
     <dct:identifier>iuss_pv_corsi-ordinari-scienze-biomediche-</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
     <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="iuss_pv">
@@ -90,7 +90,7 @@
     <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/formazione/cosa-sono-i-corsi-ordinari/"/>
     <dct:description>Elenca i corsi ordinari Scienze e Tecnologie 24-25</dct:description>
     <dct:identifier>iuss_pv_corsi-ordinari-scienze-e-tecnologie</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
     <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="iuss_pv">
@@ -132,7 +132,7 @@
     <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/formazione/cosa-sono-i-corsi-ordinari/"/>
     <dct:description>Elenca i corsi ordinari Scienze Sociali 24-25</dct:description>
     <dct:identifier>iuss_pv_corsi-ordinari-scienze-sociali</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
     <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="iuss_pv">
@@ -174,7 +174,7 @@
     <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/formazione/cosa-sono-i-corsi-ordinari/"/>
     <dct:description>Elenca i corsi ordinari Scienze Umane 24 - 25</dct:description>
     <dct:identifier>iuss_pv_corsi-ordinari-scienze-umane</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
     <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="iuss_pv">
@@ -216,7 +216,7 @@
     <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/chi-siamo/sedi/"/>
     <dct:description>Elenca le Sedi IUSS di Pavia</dct:description>
     <dct:identifier>iuss_pv_sedi</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
     <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="iuss_pv">
@@ -258,7 +258,7 @@
     <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/ricerca/laboratori-e-centri-di-ricerca/"/>
     <dct:description>Elenca i Laboratori IUSS di Pavia</dct:description>
     <dct:identifier>iuss_pv_laboratori</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
     <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="iuss_pv">
@@ -300,7 +300,7 @@
     <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/ricerca/laboratori-e-centri-di-ricerca/"/>
     <dct:description>Elenca i Centri di Ricerca IUSS di Pavia</dct:description>
     <dct:identifier>iuss_pv_centri-ricerca</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
     <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="iuss_pv">
@@ -342,7 +342,7 @@
     <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/chi-siamo/sedi/"/>
     <dct:description>Elenca le aule del Broletto</dct:description>
     <dct:identifier>iuss_pv_aule-broletto</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
     <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="iuss_pv">
@@ -384,7 +384,7 @@
     <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/chi-siamo/sedi/"/>
     <dct:description>Elenca le aule Marelli</dct:description>
     <dct:identifier>iuss_pv_aule-marelli</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
     <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="iuss_pv">
@@ -426,7 +426,7 @@
     <dcat:landingPage rdf:resource="https://www.iusspavia.it/it/chi-siamo/sedi/"/>
     <dct:description>Elenca le aule Eucetre</dct:description>
     <dct:identifier>iuss_pv_aule-eucentre</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="irregular"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
     <dcat:contactPoint rdf:resource="https://www.iusspavia.it"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="iuss_pv">
